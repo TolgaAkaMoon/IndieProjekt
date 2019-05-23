@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: SequelSansMedium;
+    src: url(../fonts/Sequel\ Sans\ Medium\ Body.ttf);
+}
+
+/* B */
+.navbar {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 55px;
+}
+
+.navbar__ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.ul__li {
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.li__a {
+    font-family: "SequelSansMedium";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.login__profile {
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.login__cart {
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.login__profile:hover {
+    opacity: 1;
+}
+
+.login__cart:hover {
+    opacity: 1;
+}
+
+
+
+
+/* E */
+
+
+
+
+
+
+
+
+    
+/* M */
+
