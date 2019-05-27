@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -9,7 +10,38 @@ body {
     src: url(../fonts/Sequel\ Sans\ Medium\ Body.ttf);
 }
 
+@font-face {
+    font-family: SequelSansSemi;
+    src: url(../fonts/Sequel\ Sans\ Semi\ Bold\ Body.ttf);
+}
+
+@font-face {
+    font-family: SequelRegular;
+    src: url(../fonts/Sequel-Regular.ttf);
+}
+
 /* B */
+
+.discount {
+    background-color: #e43d30;
+    width: 100%;
+    height: 30px;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__text {
+    font-size: 10px;
+    color: #f5f5f6;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "SequelSansSemi";
+}
+
+
 .navbar {
     width: 100%;
     background-color: black;
@@ -47,6 +79,7 @@ body {
     height: 25px;
     width: 25px;
     opacity: 0.7;
+    cursor: pointer;
     -webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -58,6 +91,7 @@ body {
     height: 25px;
     width: 25px;
     opacity: 0.7;
+    cursor: pointer;
     -webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -73,6 +107,9 @@ body {
     opacity: 1;
 }
 
+.background {
+    width: 100%;
+}
 
 
 
