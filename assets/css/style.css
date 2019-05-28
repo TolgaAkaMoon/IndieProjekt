@@ -1,4 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-color: white;
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -22,6 +27,7 @@ body {
 
 /* B */
 
+
 .discount {
     background-color: #e43d30;
     width: 100%;
@@ -41,12 +47,10 @@ body {
     font-family: "SequelSansSemi";
 }
 
-
 .navbar {
     width: 100%;
-    background-color: black;
+    background-color: #252525;
     height: 80px;
-    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,15 +113,42 @@ body {
 
 .background {
     width: 100%;
+    z-index: -3;
+}
+
+.merch {
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 450px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.fig__anker {
+    text-decoration: none;
+}
+
+.anker__img {
+    height: 200px;
+}
+
+.anker__desc {
+    color: #252525;
+    
+}
+
+.anker__price {
+    color: #252525;
 }
 
 
-
 /* E */
-
-
-
-
 
 
 
