@@ -25,6 +25,16 @@ body {
     src: url(../fonts/Sequel-Regular.ttf);
 }
 
+@font-face {
+    font-family: SequelSansBold;
+    src: url(../fonts/Sequel\ Sans\ Bold\ Body.ttf);
+}
+
+@font-face {
+    font-family: DecimaMonoProBold;
+    src: url(../fonts/DecimaMonoPro-Bold.otf);
+}
+
 /* B */
 
 
@@ -50,9 +60,11 @@ body {
 .navbar {
     width: 100%;
     background-color: #252525;
+    position: absolute;
+    top: 30px;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -113,16 +125,19 @@ body {
 
 .background {
     width: 100%;
+    position: relative;
     z-index: -3;
 }
 
 .merch {
-    margin-top: 50px;
+    margin-top: 30px;
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 390px 390px 390px;
+    grid-template-rows: 1fr 1fr;
     height: 450px;
+    justify-items: center;
+    justify-content: center;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -130,21 +145,129 @@ body {
     transition: all 500ms ease;
 }
 
+.merch__fig {
+    margin-top: 70px;
+    position: relative;
+    z-index: -2;
+}
+
 .fig__anker {
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
 
 .anker__img {
-    height: 200px;
+    height: 280px;
 }
 
 .anker__desc {
+    margin-top: 20px;
     color: #252525;
-    
+    font-family: "SequelSansBold";
+    font-size: 12px;
 }
 
 .anker__price {
+    margin-top: 5px;
     color: #252525;
+    font-family: "SequelSansBold";
+    font-size: 12px;
+}
+
+.anker__sold {
+    border: solid 3px red;
+}
+
+.anker--new {
+    left: 60px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: solid 4px #555555;
+    background-color: #f5f5f6;
+    letter-spacing: 3px;
+}
+
+.hot--new {
+    font-family: "DecimaMonoProBold";
+    top: 12px;
+    position: absolute;
+    margin-left: 7px;
+    color: #555555;
+    text-transform: uppercase;
+}
+
+.anker--hot {
+    left: 60px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: solid 4px #e43d30;
+    background-color: #f5f5f6;
+    letter-spacing: 3px;
+}
+
+.hot--hot {
+    font-family: "DecimaMonoProBold";
+    top: 12px;
+    position: absolute;
+    margin-left: 7px;
+    color: #e43d30;
+    text-transform: uppercase;
+}
+
+.anker--sold {
+    left: 60px;
+    position: absolute;
+    width: 62px;
+    height: 55px;
+    border: solid 4px #ff320f;
+    background-color: #29292b;
+    letter-spacing: 3px;
+}
+
+.hot--sold {
+    font-family: "DecimaMonoProBold";
+    top: 5px;
+    position: absolute;
+    margin-left: 3px;
+    color: #f5f5f6;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hot--sold:after {
+    content: " out"
+}
+
+.popular {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.popular--text {
+    margin-top: 70px;
+    letter-spacing: 2px;
+    color: #252525;
+    font-family: "SequelSansBold";
+    font-size: 20px;
+}
+
+.gallery {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 
@@ -152,7 +275,5 @@ body {
 
 
 
-
-    
 /* M */
 
