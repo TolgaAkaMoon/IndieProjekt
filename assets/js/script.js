@@ -14,7 +14,7 @@ function scrollFunction() {
 // Products //
 let results = [
     {img: "./assets/img/Tee-Shirt.png", desc: "GG/Geared Gamers - White Tee-Shirt", price: "$39", label: "hot"},
-    {img: "./assets/img/Tee-Shirt.png", desc: "GG x Nike Therma-FIT Hooded Sweatshirt", price: "$50", label: "new"},
+    {img: "./assets/img/Nike.png", desc: "GG x Nike Therma-FIT Hooded Sweatshirt", price: "$50", label: "new"},
     {img: "./assets/img/Tee-Shirt.png", desc: "GG/Geared Gamers - White Tee-Shirt", price: "$29", label: "hot"},
     {img: "./assets/img/Tee-Shirt.png", desc: "GG/Geared Gamers - White Tee-Shirt", price: "$19", label: "sold"},
     {img: "./assets/img/Tee-Shirt.png", desc: "GG/Geared Gamers - White Tee-Shirt", price: "$29", label: "new"},
