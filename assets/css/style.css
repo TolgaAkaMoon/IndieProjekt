@@ -66,6 +66,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 4;
 }
 
 .navbar__logo {
@@ -126,7 +127,7 @@ body {
 .background {
     width: 100%;
     position: relative;
-    z-index: -3;
+    z-index: -4;
 }
 
 .merch {
@@ -148,7 +149,6 @@ body {
 .merch__fig {
     margin-top: 70px;
     position: relative;
-    z-index: -2;
 }
 
 .fig__anker {
@@ -159,8 +159,38 @@ body {
     align-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+.anker__div {
+    display: inline-block;
+    overflow: hidden;
+}
+
 .anker__img {
     height: 280px;
+    max-width: 100%;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+
+.anker__img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform: scale(1.5);
 }
 
 .anker__desc {
@@ -260,9 +290,10 @@ body {
 .gallery {
     display: grid;
     width: 100%;
-    height: 500px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    margin-top: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -270,6 +301,48 @@ body {
     transition: all 500ms ease;
 }
 
+.gallery__wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery__img {
+    width: 100%;
+    min-width: 410px;
+    height: auto;
+    min-height: 300px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+
+.gallery__img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}
+
+
+
+
+
+
+
+
+.footer {
+    height: 350px;
+    margin-top: -20px;
+    background-color: #252525;
+}
+
+.footer--text {
+
+}
 
 /* E */
 

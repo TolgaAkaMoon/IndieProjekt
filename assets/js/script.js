@@ -26,7 +26,7 @@ results.forEach(element => {
       document.querySelector('.merch').innerHTML +=
     `<figure class="merch__fig">
       <a class="fig__anker" href="#">
-          <img class="anker__img" src=${element.img}>
+          <div class="anker__div"><img class="anker__img" src=${element.img}></div>
           <div class="anker--${element.label}"><span class="hot--${element.label}">${element.label}</span></div>
           <figcaption class="anker__desc">${element.desc}</figcaption>
           <figcaption class="anker__price">${element.price}</figcaption>
@@ -36,9 +36,9 @@ results.forEach(element => {
       document.querySelector('.merch').innerHTML +=
    `<figure class="merch__fig">
        <a class="fig__anker" href="#">
-           <img class="anker__img" src=${element.img}>
-           <figcaption class="anker__desc">${element.desc}</figcaption>
-           <figcaption class="anker__price">${element.price}</figcaption>
+          <div class="anker__div"><img class="anker__img" src=${element.img}></div>
+          <figcaption class="anker__desc">${element.desc}</figcaption>
+          <figcaption class="anker__price">${element.price}</figcaption>
        </a>
    </figure>`;
   }
