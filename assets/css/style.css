@@ -165,10 +165,6 @@ body {
 
 
 
-
-
-
-
 .anker__div {
     display: inline-block;
     overflow: hidden;
@@ -327,17 +323,61 @@ body {
     transform:scale(1.5);
 }
 
-
-
-
 .footer {
     height: 350px;
+    width: 100%;
     margin-top: -20px;
     background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
 
 .footer--text {
+    font-family: "DecimaMonoProBold";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
 
+.footer__img {
+    width: 150px;
+    height: 130px;
+}
+
+.footer__container {
+    text-align: center;
+    margin-left: -25px;
+}
+
+.container--terms {
+    color: #ffffff;
+    font-family: "DecimaMonoProBold";
+}
+
+.container--merch {
+    color: #ffffff;
+    font-family: "DecimaMonoProBold";
+}
+
+.container--contact {
+    color: #ffffff;
+    font-family: "DecimaMonoProBold";
+}
+
+.container--faq {
+    color: #ffffff;
+    font-family: "DecimaMonoProBold";
+}
+
+.container--signup {
+    color: #ffffff;
+    font-family: "DecimaMonoProBold";
+}
+
+.container__anker {
+    text-decoration: none;
 }
 
 /* E */
