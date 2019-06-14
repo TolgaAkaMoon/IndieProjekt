@@ -8,6 +8,10 @@ body {
     padding: 0;
     font-weight: 400;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -56,6 +60,22 @@ body {
     letter-spacing: 1.5px;
     font-family: "SequelSansSemi";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar {
     width: 100%;
@@ -124,11 +144,54 @@ body {
     opacity: 1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .background {
     width: 100%;
     position: relative;
     z-index: -4;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .merch {
     margin-top: 30px;
@@ -158,12 +221,6 @@ body {
     align-items: center;
     align-content: center;
 }
-
-
-
-
-
-
 
 .anker__div {
     display: inline-block;
@@ -269,7 +326,14 @@ body {
     content: " out"
 }
 
+
+
+
+
+
+
 .popular {
+    margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -280,8 +344,32 @@ body {
     letter-spacing: 2px;
     color: #252525;
     font-family: "SequelSansBold";
-    font-size: 20px;
+    font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gallery {
     display: grid;
@@ -378,6 +466,183 @@ body {
 
 .container__anker {
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sortby {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: "DecimaMonoProBold";
+}
+
+.sortby__low {
+    font-family: "DecimaMonoProBold";
+}
+
+.sortby__high {
+    font-family: "DecimaMonoProBold";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+video {
+    margin-top: 58px;
+    width: 100%;
+    height: 700px;
+    background: url(background-image.jpg) center;
+    background-size: cover;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background: #f5f5f6;
+	padding: 25px;
+	margin: 50px 0;
+}
+
+#contact h3 {
+	color: #555555;
+	display: block;
+	font-size: 30px;
+    font-weight: 400;
+    font-family: "DecimaMonoProBold";
+}
+
+#contact h4 {
+    color: #555555;
+	margin: 5px 0 15px;
+	display: block;
+    font-size: 13px;
+    font-family: "DecimaMonoProBold";
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+    width: 100%;
+    font-family: "DecimaMonoProBold";
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width: 100%;
+	border: 1px solid #CCC;
+	background: #FFF;
+	margin: 0 0 5px;
+    padding: 10px;
+    font-family: "DecimaMonoProBold";
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #555555;
+}
+
+#contact textarea {
+	height: 100px;
+	max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #f13e38;
+	color: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+    font-size: 15px;
+    font-family: "DecimaMonoProBold";
+}
+
+#contact button[type="submit"]:hover {
+	background: #ff320f;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline: 0;
+	border: 1px solid #555555;
+}
+::-webkit-input-placeholder {
+ color: #555555;
+ font-family: "DecimaMonoProBold";
+}
+:-moz-placeholder {
+ color: #555555;
+ font-family: "DecimaMonoProBold";
+}
+::-moz-placeholder {
+ color: #555555;
+ font-family: "DecimaMonoProBold";
+}
+:-ms-input-placeholder {
+ color: #555555;
+ font-family: "DecimaMonoProBold";
 }
 
 /* E */
