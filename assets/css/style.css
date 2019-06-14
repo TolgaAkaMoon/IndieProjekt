@@ -61,22 +61,6 @@ body {
     font-family: "SequelSansSemi";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navbar {
     width: 100%;
     background-color: #252525;
@@ -144,54 +128,11 @@ body {
     opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .background {
     width: 100%;
     position: relative;
     z-index: -4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .merch {
     margin-top: 30px;
@@ -326,12 +267,6 @@ body {
     content: " out"
 }
 
-
-
-
-
-
-
 .popular {
     margin-top: 70px;
     width: 100%;
@@ -346,30 +281,6 @@ body {
     font-family: "SequelSansBold";
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .gallery {
     display: grid;
@@ -468,22 +379,6 @@ body {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sortby {
     width: 100%;
     height: 20px;
@@ -499,21 +394,6 @@ body {
     font-family: "DecimaMonoProBold";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 video {
     margin-top: 58px;
     width: 100%;
@@ -522,25 +402,6 @@ video {
     background-size: cover;
     outline: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container {
 	width: 100%;
